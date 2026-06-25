@@ -89,12 +89,24 @@ const Home = () => {
           </Reveal>
         </div>
 
-        {/* divider to next section - wave is flush with stats strip (same #E6FAF9) */}
-        <WaveDivider fill="#E6FAF9" className="mt-24 -mb-px" />
+        {/* divider to next section - wave uses gradient that flows into stats strip */}
+        <WaveDivider
+          gradient={[
+            { offset: "0%", color: "#E6FAF9" },
+            { offset: "100%", color: "#CFF3F1" },
+          ]}
+          className="mt-24 -mb-px"
+        />
       </section>
 
-      {/* STATS STRIP */}
-      <section className="relative bg-[#E6FAF9] pt-4 pb-16 md:pt-6 md:pb-20" data-testid="stats-section">
+      {/* STATS STRIP - same gradient as the wave above, seamlessly continued */}
+      <section
+        className="relative pt-4 pb-16 md:pt-6 md:pb-20"
+        style={{
+          background: "linear-gradient(180deg, #CFF3F1 0%, #E6FAF9 100%)",
+        }}
+        data-testid="stats-section"
+      >
         <div className="max-w-6xl mx-auto px-5 sm:px-8 grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-6">
           {h.stats.map((s, i) => (
             <Reveal key={s.label} delay={i * 80}>
