@@ -116,7 +116,7 @@ export const translations = {
           emoji: "💄",
           name: "Salon de Beauty",
           category: "Beauty & Wellness",
-          desc: "Site modern pentru salon de make-up și îngrijire, București.",
+          desc: "Site modern pentru salon de make-up și îngrijire, Cluj Napoca.",
           gradient: "linear-gradient(135deg, #2d0036, #c06090)",
         },
         {
@@ -318,7 +318,7 @@ export const translations = {
           emoji: "💄",
           name: "Beauty Salon",
           category: "Beauty & Wellness",
-          desc: "Modern site for a make-up and care salon, Bucharest.",
+          desc: "Modern site for a make-up and care salon, Cluj Napoca.",
           gradient: "linear-gradient(135deg, #2d0036, #c06090)",
         },
         {

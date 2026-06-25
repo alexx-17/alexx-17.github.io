@@ -95,7 +95,7 @@ const Home = () => {
             { offset: "0%", color: "#E6FAF9" },
             { offset: "100%", color: "#CFF3F1" },
           ]}
-          className="mt-24 -mb-px"
+          className="relative z-10 mt-24 -mb-px" 
         />
       </section>
 
