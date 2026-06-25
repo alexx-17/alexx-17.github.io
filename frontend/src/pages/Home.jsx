@@ -365,6 +365,13 @@ const Home = () => {
           </Reveal>
         </div>
       </section>
+
+      <div 
+        className="w-full h-[1px] bg-gradient-to-r from-transparent via-white to-transparent opacity-60"
+        style={{ boxShadow: "0 0 12px 1px rgba(255,255,255,0.5)" }}
+        aria-hidden="true"
+      />
+
     </main>
   );
 };
