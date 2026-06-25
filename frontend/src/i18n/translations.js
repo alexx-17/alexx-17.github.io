@@ -13,7 +13,7 @@ export const translations = {
     },
     footer: {
       tagline:
-        "Construim site-uri profesionale pentru afaceri locale din România – rapid, modern și complet optimizat pentru mobil. De la restaurante și clinici, până la firme de construcții, transformăm ideile clienților noștri în prezențe online care aduc rezultate reale, în doar 7–10 zile lucrătoare.",
+        "Construim site-uri profesionale pentru afaceri locale din România, rapide, moderne și complet optimizate pentru mobil. De la restaurante și clinici, până la firme de construcții, transformăm ideile clienților noștri în prezențe online care aduc rezultate reale.",
       sectionLinks: "Navigare",
       sectionContact: "Contact",
       contactPhoneLabel: "Telefon",
@@ -30,10 +30,10 @@ export const translations = {
       ctaPrimary: "Hai să vorbim",
       ctaSecondary: "Vezi portofoliul",
       stats: [
-        { value: "4+", label: "Proiecte livrate" },
+        { value: "10+", label: "Proiecte livrate" },
         { value: "7–10", label: "Zile până la lansare" },
         { value: "100%", label: "Clienți satisfăcuți" },
-        { value: "24h", label: "Timp de răspuns" },
+        { value: "12h", label: "Timp de răspuns" },
       ],
       aboutLabel: "DESPRE NOI",
       aboutTitle: "O agenție mică. Rezultate mari.",
@@ -93,7 +93,7 @@ export const translations = {
       ],
       finalCtaTitle: "Pregătit să atragi mai mulți clienți online?",
       finalCtaSubtitle:
-        "Contactează-ne azi – îți răspundem în mai puțin de 24 de ore.",
+        "Contactează-ne azi, îți răspundem în mai puțin de 12 ore.",
       finalCtaButton: "Contactează-ne",
     },
     portfolio: {
@@ -134,7 +134,7 @@ export const translations = {
         },
       ],
       ctaText:
-        "📩 Vrei un site similar? Contactează-ne și hai să transformăm ideea ta în realitate în 24h.",
+        "📩 Vrei un site similar? Contactează-ne și hai să transformăm ideea ta în realitate în 12h.",
       ctaButton: "Contactează-ne",
     },
     about: {
@@ -193,7 +193,7 @@ export const translations = {
       headerTitle: "Contact",
       headerSubtitle: "Hai să vorbim despre proiectul tău",
       intro:
-        "Spune-ne câteva cuvinte despre afacerea ta și ce ai nevoie. Îți răspundem în mai puțin de 24 de ore.",
+        "Spune-ne câteva cuvinte despre afacerea ta și ce ai nevoie. Îți răspundem în mai puțin de 12 ore.",
       phoneLabel: "Sună-ne direct",
       emailLabel: "Scrie-ne pe email",
       hoursLabel: "Program",
@@ -214,7 +214,7 @@ export const translations = {
     },
     footer: {
       tagline:
-        "We build professional websites for local businesses across Romania – fast, modern, and fully optimized for mobile. From restaurants and clinics to construction firms, we turn our clients' ideas into online presences that deliver real results, in just 7–10 working days.",
+        "We build professional websites for local businesses across Romania, fast, modern, and fully optimized for mobile. From restaurants and clinics to construction firms, we turn our clients' ideas into online presences that deliver real results.",
       sectionLinks: "Navigate",
       sectionContact: "Contact",
       contactPhoneLabel: "Phone",
@@ -231,10 +231,10 @@ export const translations = {
       ctaPrimary: "Let's talk",
       ctaSecondary: "View portfolio",
       stats: [
-        { value: "4+", label: "Projects delivered" },
+        { value: "10+", label: "Projects delivered" },
         { value: "7–10", label: "Days to launch" },
         { value: "100%", label: "Happy clients" },
-        { value: "24h", label: "Response time" },
+        { value: "12h", label: "Response time" },
       ],
       aboutLabel: "ABOUT US",
       aboutTitle: "A small agency. Big results.",
@@ -294,7 +294,7 @@ export const translations = {
       ],
       finalCtaTitle: "Ready to attract more clients online?",
       finalCtaSubtitle:
-        "Reach out today – we reply in less than 24 hours.",
+        "Reach out today, we reply in less than 12 hours.",
       finalCtaButton: "Contact us",
     },
     portfolio: {
@@ -335,7 +335,7 @@ export const translations = {
         },
       ],
       ctaText:
-        "📩 Want a similar site? Reach out and let's turn your idea into reality in 24h.",
+        "📩 Want a similar site? Reach out and let's turn your idea into reality in 12h.",
       ctaButton: "Contact us",
     },
     about: {
@@ -394,7 +394,7 @@ export const translations = {
       headerTitle: "Contact",
       headerSubtitle: "Let's talk about your project",
       intro:
-        "Tell us a few words about your business and what you need. We reply in less than 24 hours.",
+        "Tell us a few words about your business and what you need. We reply in less than 12 hours.",
       phoneLabel: "Call us directly",
       emailLabel: "Email us",
       hoursLabel: "Hours",
