@@ -137,7 +137,7 @@ const Navbar = () => {
             </NavLink>
           ))}
           <div className="mt-10 flex items-center justify-between">
-            <span className="text-sm uppercase font-bold tracking-widest text-[#4A5568]">Language</span>
+            <span className="text-sm uppercase font-bold tracking-widest text-[#4A5568]">{t.nav.language}</span>
             <LanguagePill testidPrefix="mobile-lang" />
           </div>
         </div>

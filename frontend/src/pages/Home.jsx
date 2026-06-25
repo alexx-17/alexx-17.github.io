@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <main data-testid="home-page">
       {/* HERO */}
-      <section className="relative overflow-hidden bg-white pt-28 md:pt-36 pb-24 md:pb-32">
+      <section className="relative overflow-hidden bg-white pt-28 md:pt-36 pb-0">
         {/* Blobs */}
         <div
           className="ancor-blob animate-blob"
@@ -89,12 +89,12 @@ const Home = () => {
           </Reveal>
         </div>
 
-        {/* divider to next section */}
-        <WaveDivider fill="#E6FAF9" className="mt-24" />
+        {/* divider to next section - wave is flush with stats strip (same #E6FAF9) */}
+        <WaveDivider fill="#E6FAF9" className="mt-24 -mb-px" />
       </section>
 
       {/* STATS STRIP */}
-      <section className="relative bg-[#E6FAF9] py-16 md:py-20" data-testid="stats-section">
+      <section className="relative bg-[#E6FAF9] pt-4 pb-16 md:pt-6 md:pb-20" data-testid="stats-section">
         <div className="max-w-6xl mx-auto px-5 sm:px-8 grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-6">
           {h.stats.map((s, i) => (
             <Reveal key={s.label} delay={i * 80}>

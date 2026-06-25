@@ -10,6 +10,7 @@ export const translations = {
       contact: "Contact",
       menuOpen: "Deschide meniul",
       menuClose: "Închide meniul",
+      language: "Limbă",
     },
     footer: {
       tagline:
@@ -211,6 +212,7 @@ export const translations = {
       contact: "Contact",
       menuOpen: "Open menu",
       menuClose: "Close menu",
+      language: "Language",
     },
     footer: {
       tagline:
