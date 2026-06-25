@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "../contexts/LanguageContext";
-import { PHONE_DISPLAY, PHONE_TEL } from "../i18n/translations";
+import { PHONE_DISPLAY, PHONE_TEL, EMAIL } from "../i18n/translations";
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -84,6 +84,18 @@ const Footer = () => {
               data-testid="footer-phone-link"
             >
               📞 {PHONE_DISPLAY}
+            </a>
+          </p>
+          <p className="text-white/70 text-sm mt-4">
+            <span className="block text-white/50 text-xs uppercase tracking-wider mb-1">
+              {t.footer.contactEmailLabel}
+            </span>
+            <a
+              href={`mailto:${EMAIL}`}
+              className="text-white hover:text-[#0ABFBC] transition-colors font-display font-bold text-base break-all"
+              data-testid="footer-email-link"
+            >
+              ✉️ {EMAIL}
             </a>
           </p>
           <p className="text-white/70 text-sm mt-4">

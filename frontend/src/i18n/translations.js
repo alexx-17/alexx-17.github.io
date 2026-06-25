@@ -12,10 +12,12 @@ export const translations = {
       menuClose: "Închide meniul",
     },
     footer: {
-      tagline: "Site-uri care aduc clienți noi.",
+      tagline:
+        "Construim site-uri profesionale pentru afaceri locale din România — rapid, modern și complet optimizat pentru mobil. De la restaurante și clinici, până la firme de construcții, transformăm ideile clienților noștri în prezențe online care aduc rezultate reale, în doar 7–10 zile lucrătoare.",
       sectionLinks: "Navigare",
       sectionContact: "Contact",
       contactPhoneLabel: "Telefon",
+      contactEmailLabel: "Email",
       contactLocationLabel: "Locație",
       location: "Constanța, România",
       rights: "Toate drepturile rezervate.",
@@ -193,8 +195,9 @@ export const translations = {
       intro:
         "Spune-ne câteva cuvinte despre afacerea ta și ce ai nevoie. Îți răspundem în mai puțin de 24 de ore.",
       phoneLabel: "Sună-ne direct",
+      emailLabel: "Scrie-ne pe email",
       hoursLabel: "Program",
-      hours: "Luni – Vineri · 09:00 – 18:00",
+      hours: "Luni – Vineri · 09:00 – 20:00",
       locationLabel: "Locație",
       location: "Constanța, România",
     },
@@ -209,10 +212,12 @@ export const translations = {
       menuClose: "Close menu",
     },
     footer: {
-      tagline: "Websites that bring in new clients.",
+      tagline:
+        "We build professional websites for local businesses across Romania — fast, modern, and fully optimized for mobile. From restaurants and clinics to construction firms, we turn our clients' ideas into online presences that deliver real results, in just 7–10 working days.",
       sectionLinks: "Navigate",
       sectionContact: "Contact",
       contactPhoneLabel: "Phone",
+      contactEmailLabel: "Email",
       contactLocationLabel: "Location",
       location: "Constanța, Romania",
       rights: "All rights reserved.",
@@ -390,8 +395,9 @@ export const translations = {
       intro:
         "Tell us a few words about your business and what you need. We reply in less than 24 hours.",
       phoneLabel: "Call us directly",
+      emailLabel: "Email us",
       hoursLabel: "Hours",
-      hours: "Monday – Friday · 09:00 – 18:00",
+      hours: "Monday – Friday · 09:00 – 20:00",
       locationLabel: "Location",
       location: "Constanța, Romania",
     },
@@ -400,3 +406,4 @@ export const translations = {
 
 export const PHONE_DISPLAY = "+40 7XX XXX XXX";
 export const PHONE_TEL = "+407XXXXXXXX";
+export const EMAIL = "contact@ancordigital.ro";

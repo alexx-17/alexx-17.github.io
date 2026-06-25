@@ -2,7 +2,7 @@ import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 import PageHeader from "../components/PageHeader";
 import Reveal from "../components/Reveal";
-import { PHONE_DISPLAY, PHONE_TEL } from "../i18n/translations";
+import { PHONE_DISPLAY, PHONE_TEL, EMAIL } from "../i18n/translations";
 
 const Contact = () => {
   const { t } = useLanguage();
@@ -56,6 +56,21 @@ const Contact = () => {
               >
                 <span className="mr-2" aria-hidden="true">📞</span>
                 {PHONE_DISPLAY}
+              </a>
+
+              <div className="my-9 h-px bg-[#E2E8F0]" aria-hidden="true" />
+
+              <span className="text-xs sm:text-sm font-bold tracking-[0.2em] uppercase text-[#0ABFBC]">
+                {c.emailLabel}
+              </span>
+
+              <a
+                href={`mailto:${EMAIL}`}
+                className="block mt-3 font-display font-bold text-[#1B2A4A] text-xl sm:text-2xl md:text-[28px] tracking-tight transition-colors hover:text-[#0ABFBC] break-all"
+                data-testid="contact-email-link"
+              >
+                <span className="mr-2" aria-hidden="true">✉️</span>
+                {EMAIL}
               </a>
 
               <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-5 text-left">
