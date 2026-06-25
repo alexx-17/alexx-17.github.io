@@ -13,7 +13,7 @@ export const translations = {
     },
     footer: {
       tagline:
-        "Construim site-uri profesionale pentru afaceri locale din România — rapid, modern și complet optimizat pentru mobil. De la restaurante și clinici, până la firme de construcții, transformăm ideile clienților noștri în prezențe online care aduc rezultate reale, în doar 7–10 zile lucrătoare.",
+        "Construim site-uri profesionale pentru afaceri locale din România – rapid, modern și complet optimizat pentru mobil. De la restaurante și clinici, până la firme de construcții, transformăm ideile clienților noștri în prezențe online care aduc rezultate reale, în doar 7–10 zile lucrătoare.",
       sectionLinks: "Navigare",
       sectionContact: "Contact",
       contactPhoneLabel: "Telefon",
@@ -26,7 +26,7 @@ export const translations = {
       heroLabel: "AGENȚIE WEB · CONSTANȚA",
       heroTitle: "Site-uri care aduc clienți noi.",
       heroSubtitle:
-        "Construim prezențe online profesionale pentru afaceri locale — rapid, modern și complet optimizat.",
+        "Construim prezențe online profesionale pentru afaceri locale – rapid, modern și complet optimizat.",
       ctaPrimary: "Hai să vorbim",
       ctaSecondary: "Vezi portofoliul",
       stats: [
@@ -40,7 +40,7 @@ export const translations = {
       aboutP1:
         "Ancor Digital este o agenție web din Constanța, specializată în site-uri profesionale pentru afaceri mici și mijlocii.",
       aboutP2:
-        "Lucrăm direct cu antreprenorii — fără termeni tehnici, fără bătăi de cap. Doar rezultate vizibile, online.",
+        "Lucrăm direct cu antreprenorii – fără termeni tehnici, fără bătăi de cap. Doar rezultate vizibile, online.",
       aboutLink: "Cunoaște echipa",
       featureRows: [
         { emoji: "⚡", label: "Livrare în 7–10 zile" },
@@ -48,21 +48,21 @@ export const translations = {
         { emoji: "🎨", label: "Design Modern" },
       ],
       processTitle: "Cum Funcționează",
-      processSubtitle: "De la idee la site live — în 3 pași simpli.",
+      processSubtitle: "De la idee la site live – în 3 pași simpli.",
       processSteps: [
         {
           emoji: "💬",
-          title: "Pas 1 — Discutăm",
+          title: "Pas 1 – Discutăm",
           desc: "Ne contactezi, îți înțelegem afacerea și ce vrei să transmită site-ul tău. Fără termeni tehnici, fără complicații. O discuție simplă, pe WhatsApp sau telefon.",
         },
         {
           emoji: "🛠️",
-          title: "Pas 2 — Construim",
-          desc: "În 7–10 zile lucrătoare, site-ul tău profesional este gata. Îți trimitem un link de previzualizare înainte de lansare — îl poți vedea și aproba înainte să fie public.",
+          title: "Pas 2 – Construim",
+          desc: "În 7–10 zile lucrătoare, site-ul tău profesional este gata. Îți trimitem un link de previzualizare înainte de lansare – îl poți vedea și aproba înainte să fie public.",
         },
         {
           emoji: "🚀",
-          title: "Pas 3 — Lansăm",
+          title: "Pas 3 – Lansăm",
           desc: "Aprobăm împreună, conectăm domeniul tău și site-ul este live. Gata să atragă noi clienți pentru afacerea ta.",
         },
       ],
@@ -93,13 +93,13 @@ export const translations = {
       ],
       finalCtaTitle: "Pregătit să atragi mai mulți clienți online?",
       finalCtaSubtitle:
-        "Contactează-ne azi — îți răspundem în mai puțin de 24 de ore.",
+        "Contactează-ne azi – îți răspundem în mai puțin de 24 de ore.",
       finalCtaButton: "Contactează-ne",
     },
     portfolio: {
       headerTitle: "Portofoliu",
       headerSubtitle:
-        "Proiecte realizate — fiecare construit de la zero, adaptat specificului afacerii",
+        "Proiecte realizate – fiecare construit de la zero, adaptat specificului afacerii",
       intro:
         "Fiecare proiect din portofoliul nostru a fost construit de la zero, adaptat specificului fiecărei afaceri. Mai jos găsiți exemple reprezentative din colaborările noastre recente.",
       viewProject: "Vezi proiectul",
@@ -145,7 +145,7 @@ export const translations = {
       sectionTitle: "O agenție mică. Atenție mare la detalii.",
       paragraphs: [
         "Ancor Digital este o agenție web din Constanța, specializată în site-uri profesionale pentru afaceri mici și mijlocii din România.",
-        "Lucrăm cu restaurante, clinici, saloane, firme de construcții și alți antreprenori locali care vor să fie găsiți online — fără bătăi de cap și cu o abordare directă.",
+        "Lucrăm cu restaurante, clinici, saloane, firme de construcții și alți antreprenori locali care vor să fie găsiți online – fără bătăi de cap și cu o abordare directă.",
         "Folosim cele mai noi tehnologii disponibile pentru a livra site-uri rapide, mobile-friendly și cu un design care inspiră încredere din prima secundă.",
         "Nu avem zeci de angajați. Avem în schimb atenție la detalii, timp de răspuns rapid și un singur obiectiv: succesul prezenței tale online.",
       ],
@@ -197,7 +197,8 @@ export const translations = {
       phoneLabel: "Sună-ne direct",
       emailLabel: "Scrie-ne pe email",
       hoursLabel: "Program",
-      hours: "Luni – Vineri · 09:00 – 20:00",
+      hoursDay: "Luni – Vineri",
+      hoursTime: "09:00 – 20:00",
       locationLabel: "Locație",
       location: "Constanța, România",
     },
@@ -213,7 +214,7 @@ export const translations = {
     },
     footer: {
       tagline:
-        "We build professional websites for local businesses across Romania — fast, modern, and fully optimized for mobile. From restaurants and clinics to construction firms, we turn our clients' ideas into online presences that deliver real results, in just 7–10 working days.",
+        "We build professional websites for local businesses across Romania – fast, modern, and fully optimized for mobile. From restaurants and clinics to construction firms, we turn our clients' ideas into online presences that deliver real results, in just 7–10 working days.",
       sectionLinks: "Navigate",
       sectionContact: "Contact",
       contactPhoneLabel: "Phone",
@@ -226,7 +227,7 @@ export const translations = {
       heroLabel: "WEB AGENCY · CONSTANȚA",
       heroTitle: "Websites that bring in new clients.",
       heroSubtitle:
-        "We build professional online presences for local businesses — fast, modern, and fully optimized.",
+        "We build professional online presences for local businesses – fast, modern, and fully optimized.",
       ctaPrimary: "Let's talk",
       ctaSecondary: "View portfolio",
       stats: [
@@ -240,7 +241,7 @@ export const translations = {
       aboutP1:
         "Ancor Digital is a web agency from Constanța, specialized in professional websites for small and medium businesses.",
       aboutP2:
-        "We work directly with entrepreneurs — no jargon, no hassle. Just visible online results.",
+        "We work directly with entrepreneurs – no jargon, no hassle. Just visible online results.",
       aboutLink: "Meet the team",
       featureRows: [
         { emoji: "⚡", label: "Delivery in 7–10 days" },
@@ -248,21 +249,21 @@ export const translations = {
         { emoji: "🎨", label: "Modern Design" },
       ],
       processTitle: "How It Works",
-      processSubtitle: "From idea to live site — in 3 simple steps.",
+      processSubtitle: "From idea to live site – in 3 simple steps.",
       processSteps: [
         {
           emoji: "💬",
-          title: "Step 1 — We Talk",
+          title: "Step 1 – We Talk",
           desc: "You reach out, we understand your business and what your website should communicate. No technical terms, no complications. A simple chat on WhatsApp or phone.",
         },
         {
           emoji: "🛠️",
-          title: "Step 2 — We Build",
-          desc: "In 7–10 working days, your professional website is ready. We send you a preview link before launch — you can see and approve it before going public.",
+          title: "Step 2 – We Build",
+          desc: "In 7–10 working days, your professional website is ready. We send you a preview link before launch – you can see and approve it before going public.",
         },
         {
           emoji: "🚀",
-          title: "Step 3 — We Launch",
+          title: "Step 3 – We Launch",
           desc: "We approve together, connect your domain and the site goes live. Ready to attract new clients for your business.",
         },
       ],
@@ -293,13 +294,13 @@ export const translations = {
       ],
       finalCtaTitle: "Ready to attract more clients online?",
       finalCtaSubtitle:
-        "Reach out today — we reply in less than 24 hours.",
+        "Reach out today – we reply in less than 24 hours.",
       finalCtaButton: "Contact us",
     },
     portfolio: {
       headerTitle: "Portfolio",
       headerSubtitle:
-        "Projects delivered — each built from scratch, tailored to the business",
+        "Projects delivered – each built from scratch, tailored to the business",
       intro:
         "Every project in our portfolio was built from scratch, tailored to each business's specifics. Below you'll find representative examples from our recent collaborations.",
       viewProject: "View project",
@@ -345,7 +346,7 @@ export const translations = {
       sectionTitle: "A small agency. Big attention to detail.",
       paragraphs: [
         "Ancor Digital is a web agency from Constanța, specialized in professional websites for small and medium businesses across Romania.",
-        "We work with restaurants, clinics, salons, construction firms and other local entrepreneurs who want to be found online — without hassle and with a direct approach.",
+        "We work with restaurants, clinics, salons, construction firms and other local entrepreneurs who want to be found online – without hassle and with a direct approach.",
         "We use the latest available technologies to deliver fast, mobile-friendly websites with a design that inspires trust from the first second.",
         "We don't have dozens of employees. Instead, we have attention to detail, fast response time, and a single goal: the success of your online presence.",
       ],
@@ -397,7 +398,8 @@ export const translations = {
       phoneLabel: "Call us directly",
       emailLabel: "Email us",
       hoursLabel: "Hours",
-      hours: "Monday – Friday · 09:00 – 20:00",
+      hoursDay: "Monday – Friday",
+      hoursTime: "09:00 – 20:00",
       locationLabel: "Location",
       location: "Constanța, Romania",
     },

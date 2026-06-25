@@ -81,8 +81,11 @@ const Contact = () => {
                   <span className="block text-xs uppercase tracking-[0.18em] font-bold text-[#0ABFBC]">
                     {c.hoursLabel}
                   </span>
-                  <span className="block mt-1.5 text-[#1B2A4A] font-display font-semibold text-sm">
-                    {c.hours}
+                  <span className="block mt-1.5 text-[#1B2A4A] font-display font-semibold text-sm leading-tight">
+                    {c.hoursDay}
+                  </span>
+                  <span className="block text-[#1B2A4A] font-display font-semibold text-sm leading-tight">
+                    {c.hoursTime}
                   </span>
                 </div>
                 <div
